@@ -191,33 +191,33 @@ export default function PairLanding({ onPairCreated, onPairJoined, audioRef }: P
           <div className="space-y-4">
             <button
               onClick={() => setMode('create')}
-              className="floating-cta w-full bg-gradient-to-r from-pink-500 to-purple-500 rounded-2xl p-6 hover:shadow-xl transition-all border-2 border-transparent hover:from-pink-600 hover:to-purple-600 text-left"
+              className="floating-cta w-full bg-white rounded-2xl p-6 hover:shadow-xl transition-all border-2 border-transparent hover:border-pink-200 text-left"
             >
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Users className="text-white" size={24} />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-medium text-white mb-1 text-lg">Start Your Pair</h3>
-                  <p className="text-sm text-white/80 font-light leading-relaxed">Create a pair and invite your partner</p>
+                  <h3 className="font-medium text-gray-900 mb-1 text-lg">Start Your Pair</h3>
+                  <p className="text-sm text-gray-600 font-light leading-relaxed">Create a pair and invite your partner</p>
                 </div>
-                <ArrowRight className="text-white/70" size={20} />
+                <ArrowRight className="text-gray-400" size={20} />
               </div>
             </button>
 
             <button
               onClick={() => setMode('join')}
-              className="floating-cta w-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-6 hover:shadow-xl transition-all border-2 border-transparent hover:from-purple-600 hover:to-pink-600 text-left"
+              className="floating-cta w-full bg-white rounded-2xl p-6 hover:shadow-xl transition-all border-2 border-transparent hover:border-purple-200 text-left"
             >
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center flex-shrink-0">
                   <Key className="text-white" size={24} />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-medium text-white mb-1 text-lg">Join Your Partner</h3>
-                  <p className="text-sm text-white/80 font-light leading-relaxed">Enter your partner's pair code</p>
+                  <h3 className="font-medium text-gray-900 mb-1 text-lg">Join Your Partner</h3>
+                  <p className="text-sm text-gray-600 font-light leading-relaxed">Enter your partner's pair code</p>
                 </div>
-                <ArrowRight className="text-white/70" size={20} />
+                <ArrowRight className="text-gray-400" size={20} />
               </div>
             </button>
           </div>
