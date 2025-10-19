@@ -182,6 +182,7 @@ body {
   mask-composite: exclude;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  pointer-events: none; /* Allow clicks to pass through */
 }
 
 /* Floating CTA buttons */
@@ -207,6 +208,7 @@ body {
   mask-composite: exclude;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  pointer-events: none; /* Allow clicks to pass through */
 }
 
 .floating-cta:hover {
@@ -236,4 +238,5 @@ body {
   mask-composite: exclude;
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
+  pointer-events: none; /* Allow clicks to pass through */
 }
